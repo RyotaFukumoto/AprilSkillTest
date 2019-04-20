@@ -3,15 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27452E8D3B8CC7169C5C3478 /* Pods_AprilSkillTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AB196466F4E4FE583549D8 /* Pods_AprilSkillTest.framework */; };
+		7F52FA9C1F77F346A61D2E8B /* Pods_AprilSkillTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6CFF94084F1642BBD592B5 /* Pods_AprilSkillTestUITests.framework */; };
 		A3661C7C226AA99900489C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3661C7B226AA99900489C30 /* AppDelegate.swift */; };
 		A3661C83226AA99C00489C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3661C82226AA99C00489C30 /* Assets.xcassets */; };
 		A3661C86226AA99C00489C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3661C84226AA99C00489C30 /* LaunchScreen.storyboard */; };
 		A3661C91226AA99C00489C30 /* AprilSkillTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3661C90226AA99C00489C30 /* AprilSkillTestTests.swift */; };
 		A3661C9C226AA99C00489C30 /* AprilSkillTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3661C9B226AA99C00489C30 /* AprilSkillTestUITests.swift */; };
+		A3661CB3226AAC1B00489C30 /* RestaurantearchScreen .storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3661CB2226AAC1B00489C30 /* RestaurantearchScreen .storyboard */; };
+		A3661CB5226AACC700489C30 /* RestaurantSearchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3661CB4226AACC700489C30 /* RestaurantSearchScreenViewController.swift */; };
+		A3661CB6226AACCA00489C30 /* RestaurantSearchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3661CB4226AACC700489C30 /* RestaurantSearchScreenViewController.swift */; };
+		A3661CB7226AACCB00489C30 /* RestaurantSearchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3661CB4226AACC700489C30 /* RestaurantSearchScreenViewController.swift */; };
+		A3661CB9226AAFFB00489C30 /* GenreSpecificationScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3661CB8226AAFFB00489C30 /* GenreSpecificationScreen.storyboard */; };
+		A3661CBB226AB00D00489C30 /* GenreSpecificationScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3661CBA226AB00D00489C30 /* GenreSpecificationScreenViewController.swift */; };
+		A3661CBD226AB04400489C30 /* RestaurantDetailscreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3661CBC226AB04400489C30 /* RestaurantDetailscreen.storyboard */; };
+		A3661CBF226AB05800489C30 /* RestaurantDetailscreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3661CBE226AB05800489C30 /* RestaurantDetailscreenViewController.swift */; };
+		A3661CC6226AB53C00489C30 /* NetWorkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3661CC5226AB53C00489C30 /* NetWorkManger.swift */; };
+		A3661CCC226ABB3C00489C30 /* RestaurantGenreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3661CCB226ABB3C00489C30 /* RestaurantGenreData.swift */; };
+		A3661CD0226AC05500489C30 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3661CCF226AC05500489C30 /* APIKey.plist */; };
+		A3661CD7226AD5DE00489C30 /* GenreSpecificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3661CD5226AD5DE00489C30 /* GenreSpecificationTableViewCell.swift */; };
+		A3661CD8226AD5DE00489C30 /* GenreSpecificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3661CD5226AD5DE00489C30 /* GenreSpecificationTableViewCell.swift */; };
+		A3661CD9226AD5DE00489C30 /* GenreSpecificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3661CD5226AD5DE00489C30 /* GenreSpecificationTableViewCell.swift */; };
+		A3661CDA226AD5DE00489C30 /* GenreSpecificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3661CD6226AD5DE00489C30 /* GenreSpecificationTableViewCell.xib */; };
+		A3661CDB226AD5DE00489C30 /* GenreSpecificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3661CD6226AD5DE00489C30 /* GenreSpecificationTableViewCell.xib */; };
+		A3661CDC226AD5DE00489C30 /* GenreSpecificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3661CD6226AD5DE00489C30 /* GenreSpecificationTableViewCell.xib */; };
+		A3661CE8226AD66800489C30 /* GenreSpecificationTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3661CE6226AD66800489C30 /* GenreSpecificationTitleCell.swift */; };
+		A3661CE9226AD66800489C30 /* GenreSpecificationTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3661CE6226AD66800489C30 /* GenreSpecificationTitleCell.swift */; };
+		A3661CEA226AD66800489C30 /* GenreSpecificationTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3661CE6226AD66800489C30 /* GenreSpecificationTitleCell.swift */; };
+		A3661CEB226AD66800489C30 /* GenreSpecificationTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3661CE7226AD66800489C30 /* GenreSpecificationTitleCell.xib */; };
+		A3661CEC226AD66800489C30 /* GenreSpecificationTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3661CE7226AD66800489C30 /* GenreSpecificationTitleCell.xib */; };
+		A3661CED226AD66800489C30 /* GenreSpecificationTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3661CE7226AD66800489C30 /* GenreSpecificationTitleCell.xib */; };
+		D427DE3627ACEB15F2E68833 /* Pods_AprilSkillTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA8AF6C8F0B1BD791F3C6B2 /* Pods_AprilSkillTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +58,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		144554846C18A9D732CCA006 /* Pods-AprilSkillTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AprilSkillTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AprilSkillTest/Pods-AprilSkillTest.release.xcconfig"; sourceTree = "<group>"; };
+		595942F6CB69B76DF8236235 /* Pods-AprilSkillTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AprilSkillTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AprilSkillTest/Pods-AprilSkillTest.debug.xcconfig"; sourceTree = "<group>"; };
+		7DC71ECA9CE79F44A93CB191 /* Pods-AprilSkillTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AprilSkillTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AprilSkillTestUITests/Pods-AprilSkillTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A1EBF7F85B3D17E727DA0A2 /* Pods-AprilSkillTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AprilSkillTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AprilSkillTestTests/Pods-AprilSkillTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D6CFF94084F1642BBD592B5 /* Pods_AprilSkillTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AprilSkillTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3661C78226AA99900489C30 /* AprilSkillTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AprilSkillTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3661C7B226AA99900489C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3661C82226AA99C00489C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +74,25 @@
 		A3661C97226AA99C00489C30 /* AprilSkillTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AprilSkillTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3661C9B226AA99C00489C30 /* AprilSkillTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprilSkillTestUITests.swift; sourceTree = "<group>"; };
 		A3661C9D226AA99C00489C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3661CAF226AAB7800489C30 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A3661CB1226AABAA00489C30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A3661CB2226AAC1B00489C30 /* RestaurantearchScreen .storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "RestaurantearchScreen .storyboard"; sourceTree = "<group>"; };
+		A3661CB4226AACC700489C30 /* RestaurantSearchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSearchScreenViewController.swift; sourceTree = "<group>"; };
+		A3661CB8226AAFFB00489C30 /* GenreSpecificationScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GenreSpecificationScreen.storyboard; sourceTree = "<group>"; };
+		A3661CBA226AB00D00489C30 /* GenreSpecificationScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreSpecificationScreenViewController.swift; sourceTree = "<group>"; };
+		A3661CBC226AB04400489C30 /* RestaurantDetailscreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RestaurantDetailscreen.storyboard; sourceTree = "<group>"; };
+		A3661CBE226AB05800489C30 /* RestaurantDetailscreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailscreenViewController.swift; sourceTree = "<group>"; };
+		A3661CC5226AB53C00489C30 /* NetWorkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManger.swift; sourceTree = "<group>"; };
+		A3661CCB226ABB3C00489C30 /* RestaurantGenreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantGenreData.swift; sourceTree = "<group>"; };
+		A3661CCF226AC05500489C30 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
+		A3661CD5226AD5DE00489C30 /* GenreSpecificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreSpecificationTableViewCell.swift; sourceTree = "<group>"; };
+		A3661CD6226AD5DE00489C30 /* GenreSpecificationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenreSpecificationTableViewCell.xib; sourceTree = "<group>"; };
+		A3661CE6226AD66800489C30 /* GenreSpecificationTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreSpecificationTitleCell.swift; sourceTree = "<group>"; };
+		A3661CE7226AD66800489C30 /* GenreSpecificationTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenreSpecificationTitleCell.xib; sourceTree = "<group>"; };
+		B6AB196466F4E4FE583549D8 /* Pods_AprilSkillTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AprilSkillTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53000B3D1C54B772F30C05D /* Pods-AprilSkillTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AprilSkillTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AprilSkillTestUITests/Pods-AprilSkillTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E8F7F78E47CCE615750D756F /* Pods-AprilSkillTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AprilSkillTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AprilSkillTestTests/Pods-AprilSkillTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		EFA8AF6C8F0B1BD791F3C6B2 /* Pods_AprilSkillTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AprilSkillTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27452E8D3B8CC7169C5C3478 /* Pods_AprilSkillTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D427DE3627ACEB15F2E68833 /* Pods_AprilSkillTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,12 +116,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F52FA9C1F77F346A61D2E8B /* Pods_AprilSkillTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A4C1D8E684D714A4310DA64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				595942F6CB69B76DF8236235 /* Pods-AprilSkillTest.debug.xcconfig */,
+				144554846C18A9D732CCA006 /* Pods-AprilSkillTest.release.xcconfig */,
+				8A1EBF7F85B3D17E727DA0A2 /* Pods-AprilSkillTestTests.debug.xcconfig */,
+				E8F7F78E47CCE615750D756F /* Pods-AprilSkillTestTests.release.xcconfig */,
+				7DC71ECA9CE79F44A93CB191 /* Pods-AprilSkillTestUITests.debug.xcconfig */,
+				D53000B3D1C54B772F30C05D /* Pods-AprilSkillTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		848432A473C17A5367E190AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6AB196466F4E4FE583549D8 /* Pods_AprilSkillTest.framework */,
+				EFA8AF6C8F0B1BD791F3C6B2 /* Pods_AprilSkillTestTests.framework */,
+				9D6CFF94084F1642BBD592B5 /* Pods_AprilSkillTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A3661C6F226AA99900489C30 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +153,8 @@
 				A3661C8F226AA99C00489C30 /* AprilSkillTestTests */,
 				A3661C9A226AA99C00489C30 /* AprilSkillTestUITests */,
 				A3661C79226AA99900489C30 /* Products */,
+				0A4C1D8E684D714A4310DA64 /* Pods */,
+				848432A473C17A5367E190AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,10 +200,11 @@
 		A3661CA9226AA9AB00489C30 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				A3661C87226AA99C00489C30 /* Info.plist */,
 				A3661C7B226AA99900489C30 /* AppDelegate.swift */,
 				A3661C82226AA99C00489C30 /* Assets.xcassets */,
 				A3661C84226AA99C00489C30 /* LaunchScreen.storyboard */,
-				A3661C87226AA99C00489C30 /* Info.plist */,
+				A3661CCF226AC05500489C30 /* APIKey.plist */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -133,6 +212,8 @@
 		A3661CAA226AA9B700489C30 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A3661CCA226ABB3C00489C30 /* DataBase */,
+				A3661CC4226AB4A600489C30 /* Network */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -140,6 +221,9 @@
 		A3661CAB226AA9C700489C30 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A3661CD3226AD58500489C30 /* RestaurantDetail */,
+				A3661CD2226AD57800489C30 /* GenreSpecification */,
+				A3661CD1226AD56200489C30 /* Restaurantearch */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -147,8 +231,71 @@
 		A3661CAC226AA9CE00489C30 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A3661CB4226AACC700489C30 /* RestaurantSearchScreenViewController.swift */,
+				A3661CBA226AB00D00489C30 /* GenreSpecificationScreenViewController.swift */,
+				A3661CBE226AB05800489C30 /* RestaurantDetailscreenViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		A3661CC4226AB4A600489C30 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A3661CC5226AB53C00489C30 /* NetWorkManger.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A3661CCA226ABB3C00489C30 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				A3661CCB226ABB3C00489C30 /* RestaurantGenreData.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		A3661CD1226AD56200489C30 /* Restaurantearch */ = {
+			isa = PBXGroup;
+			children = (
+				A3661CB2226AAC1B00489C30 /* RestaurantearchScreen .storyboard */,
+			);
+			path = Restaurantearch;
+			sourceTree = "<group>";
+		};
+		A3661CD2226AD57800489C30 /* GenreSpecification */ = {
+			isa = PBXGroup;
+			children = (
+				A3661CDD226AD5FD00489C30 /* GenreSpecificationTitleCell */,
+				A3661CD4226AD5A500489C30 /* GenreSpecificationCell */,
+				A3661CB8226AAFFB00489C30 /* GenreSpecificationScreen.storyboard */,
+			);
+			path = GenreSpecification;
+			sourceTree = "<group>";
+		};
+		A3661CD3226AD58500489C30 /* RestaurantDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A3661CBC226AB04400489C30 /* RestaurantDetailscreen.storyboard */,
+			);
+			path = RestaurantDetail;
+			sourceTree = "<group>";
+		};
+		A3661CD4226AD5A500489C30 /* GenreSpecificationCell */ = {
+			isa = PBXGroup;
+			children = (
+				A3661CD5226AD5DE00489C30 /* GenreSpecificationTableViewCell.swift */,
+				A3661CD6226AD5DE00489C30 /* GenreSpecificationTableViewCell.xib */,
+			);
+			path = GenreSpecificationCell;
+			sourceTree = "<group>";
+		};
+		A3661CDD226AD5FD00489C30 /* GenreSpecificationTitleCell */ = {
+			isa = PBXGroup;
+			children = (
+				A3661CE6226AD66800489C30 /* GenreSpecificationTitleCell.swift */,
+				A3661CE7226AD66800489C30 /* GenreSpecificationTitleCell.xib */,
+			);
+			path = GenreSpecificationTitleCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3661CA0226AA99C00489C30 /* Build configuration list for PBXNativeTarget "AprilSkillTest" */;
 			buildPhases = (
+				F7A709B01029ADDDA014B1D3 /* [CP] Check Pods Manifest.lock */,
 				A3661C74226AA99900489C30 /* Sources */,
 				A3661C75226AA99900489C30 /* Frameworks */,
 				A3661C76226AA99900489C30 /* Resources */,
+				032F2C245FBF9195A77A4449 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,6 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3661CA3226AA99C00489C30 /* Build configuration list for PBXNativeTarget "AprilSkillTestTests" */;
 			buildPhases = (
+				D15A32DD5CC966FB6BD90582 /* [CP] Check Pods Manifest.lock */,
 				A3661C88226AA99C00489C30 /* Sources */,
 				A3661C89226AA99C00489C30 /* Frameworks */,
 				A3661C8A226AA99C00489C30 /* Resources */,
@@ -193,6 +343,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3661CA6226AA99C00489C30 /* Build configuration list for PBXNativeTarget "AprilSkillTestUITests" */;
 			buildPhases = (
+				E0C9C390788E59C0FE3CC1ED /* [CP] Check Pods Manifest.lock */,
 				A3661C93226AA99C00489C30 /* Sources */,
 				A3661C94226AA99C00489C30 /* Frameworks */,
 				A3661C95226AA99C00489C30 /* Resources */,
@@ -231,12 +382,13 @@
 				};
 			};
 			buildConfigurationList = A3661C73226AA99900489C30 /* Build configuration list for PBXProject "AprilSkillTest" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = A3661C6F226AA99900489C30;
 			productRefGroup = A3661C79226AA99900489C30 /* Products */;
@@ -255,8 +407,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3661CBD226AB04400489C30 /* RestaurantDetailscreen.storyboard in Resources */,
+				A3661CB9226AAFFB00489C30 /* GenreSpecificationScreen.storyboard in Resources */,
 				A3661C86226AA99C00489C30 /* LaunchScreen.storyboard in Resources */,
+				A3661CD0226AC05500489C30 /* APIKey.plist in Resources */,
+				A3661CEB226AD66800489C30 /* GenreSpecificationTitleCell.xib in Resources */,
 				A3661C83226AA99C00489C30 /* Assets.xcassets in Resources */,
+				A3661CDA226AD5DE00489C30 /* GenreSpecificationTableViewCell.xib in Resources */,
+				A3661CB3226AAC1B00489C30 /* RestaurantearchScreen .storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +422,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3661CEC226AD66800489C30 /* GenreSpecificationTitleCell.xib in Resources */,
+				A3661CDB226AD5DE00489C30 /* GenreSpecificationTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,17 +431,121 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3661CED226AD66800489C30 /* GenreSpecificationTitleCell.xib in Resources */,
+				A3661CDC226AD5DE00489C30 /* GenreSpecificationTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		032F2C245FBF9195A77A4449 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AprilSkillTest/Pods-AprilSkillTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AprilSkillTest/Pods-AprilSkillTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D15A32DD5CC966FB6BD90582 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AprilSkillTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0C9C390788E59C0FE3CC1ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AprilSkillTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7A709B01029ADDDA014B1D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AprilSkillTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A3661C74226AA99900489C30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3661CE8226AD66800489C30 /* GenreSpecificationTitleCell.swift in Sources */,
+				A3661CCC226ABB3C00489C30 /* RestaurantGenreData.swift in Sources */,
+				A3661CBF226AB05800489C30 /* RestaurantDetailscreenViewController.swift in Sources */,
+				A3661CC6226AB53C00489C30 /* NetWorkManger.swift in Sources */,
+				A3661CD7226AD5DE00489C30 /* GenreSpecificationTableViewCell.swift in Sources */,
+				A3661CBB226AB00D00489C30 /* GenreSpecificationScreenViewController.swift in Sources */,
 				A3661C7C226AA99900489C30 /* AppDelegate.swift in Sources */,
+				A3661CB5226AACC700489C30 /* RestaurantSearchScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +553,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3661CE9226AD66800489C30 /* GenreSpecificationTitleCell.swift in Sources */,
 				A3661C91226AA99C00489C30 /* AprilSkillTestTests.swift in Sources */,
+				A3661CD8226AD5DE00489C30 /* GenreSpecificationTableViewCell.swift in Sources */,
+				A3661CB6226AACCA00489C30 /* RestaurantSearchScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +564,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3661CEA226AD66800489C30 /* GenreSpecificationTitleCell.swift in Sources */,
 				A3661C9C226AA99C00489C30 /* AprilSkillTestUITests.swift in Sources */,
+				A3661CD9226AD5DE00489C30 /* GenreSpecificationTableViewCell.swift in Sources */,
+				A3661CB7226AACCB00489C30 /* RestaurantSearchScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +591,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				A3661C85226AA99C00489C30 /* Base */,
+				A3661CAF226AAB7800489C30 /* ja */,
+				A3661CB1226AABAA00489C30 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -332,6 +604,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -379,7 +652,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -393,6 +666,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -434,7 +708,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -446,11 +720,12 @@
 		};
 		A3661CA1226AA99C00489C30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595942F6CB69B76DF8236235 /* Pods-AprilSkillTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5V89BB5PY3;
-				INFOPLIST_FILE = AprilSkillTest/Info.plist;
+				DEVELOPMENT_TEAM = XC6768SR7J;
+				INFOPLIST_FILE = "$(SRCROOT)/AprilSkillTest/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,11 +739,12 @@
 		};
 		A3661CA2226AA99C00489C30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144554846C18A9D732CCA006 /* Pods-AprilSkillTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5V89BB5PY3;
-				INFOPLIST_FILE = AprilSkillTest/Info.plist;
+				DEVELOPMENT_TEAM = XC6768SR7J;
+				INFOPLIST_FILE = "$(SRCROOT)/AprilSkillTest/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,6 +758,7 @@
 		};
 		A3661CA4226AA99C00489C30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A1EBF7F85B3D17E727DA0A2 /* Pods-AprilSkillTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -503,6 +780,7 @@
 		};
 		A3661CA5226AA99C00489C30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F7F78E47CCE615750D756F /* Pods-AprilSkillTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +802,7 @@
 		};
 		A3661CA7226AA99C00489C30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC71ECA9CE79F44A93CB191 /* Pods-AprilSkillTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,6 +823,7 @@
 		};
 		A3661CA8226AA99C00489C30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D53000B3D1C54B772F30C05D /* Pods-AprilSkillTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
