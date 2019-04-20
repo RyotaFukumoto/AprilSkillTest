@@ -27,7 +27,7 @@ class GenreSpecificationScreenViewController: UIViewController, UITableViewDeleg
     func setUp() {
         setUpProtocol()
         setUpData()
-        
+        setUpNib()
     }
     
 /// プロトコルセットアップ
@@ -43,6 +43,10 @@ class GenreSpecificationScreenViewController: UIViewController, UITableViewDeleg
         for genreRealm in genreArrayRealm {
             genreArray.append(genreRealm.name)
         }
+    }
+    func setUpNib() {
+        genreSelectTableView.register(UINib(nibName: "GenreSpecificationTitleCell", bundle: nil), forCellReuseIdentifier: "titleCell")
+        genreSelectTableView.register(UINib(nibName: "GenreSpecificationTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
